@@ -1,0 +1,18 @@
+body {
+  text-align: center;
+  font-family: Verdana;
+}
+h1 {
+  font-family: Verdana;
+}
+#myButton {
+  font-family: Verdana;
+  font-size: 3em;
+  padding: 5px 15px;
+  background-color: aqua;
+  border-radius: 5px;
+}
+
+#myLabel {
+  font-size: 5em;
+}

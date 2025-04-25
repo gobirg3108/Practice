@@ -29,7 +29,7 @@
 //     break;
 // }
 
-let testScore = 100 ;
+let testScore = 100;
 
 let letterGrade;
 
@@ -44,7 +44,7 @@ switch (true) {
     letterGrade = "Your grade is C";
     break;
   default:
-    letterGrade="You didn't get any grades"
+    letterGrade = "You didn't get any grades";
     break;
 }
 

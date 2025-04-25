@@ -33,13 +33,17 @@
 
 //SHORTCUT
 
-let fruits = ["Apple", "Orange", "Banana"];
+// let fruits = ["Apple", "Orange", "Banana"];
 
 // for (let fruit of fruits) { // list of all items
 //   console.log(fruit);
 // }
 
-fruits.sort().reverse()
-for (let fruit of fruits) {  //list of all items in reverse
-     console.log(fruit);
-   }
+// fruits.sort().reverse()
+// for (let fruit of fruits) {  //list of all items in reverse
+//      console.log(fruit);
+//    }
+
+let numbers = [1, 2, 3, 4, 5, 6, 7];
+let newNum = numbers.map((num) => num * 2);
+console.log(newNum);

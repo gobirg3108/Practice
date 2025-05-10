@@ -27,11 +27,11 @@
 
 let dates = ["2002-08-31", "2004-06-07"];
 
+function formatDates(element) {
+  let parts = element.split("-");
+  return `${parts[0]}/${parts[1]}/${parts[2]}}`;
+}
+
 let formattedDates = dates.map(formatDates);
 
 console.log(formattedDates);
-
-function formatDates(element) {
-  let parts = element.split("-");
-  return `${parts[1]}/${parts[2]}/${parts[0]}`;
-}

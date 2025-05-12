@@ -1,0 +1,14 @@
+body{
+    background-color: hsl(240, 2%, 26%);
+}
+#p1{
+    color: #11608a;
+}
+#p2{
+    color: rgb(130, 5, 5);}
+#p3{
+color: darkgreen;
+}
+#p4{
+    color:hwb(291 9% 62%)
+}

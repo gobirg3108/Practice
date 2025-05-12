@@ -1,0 +1,19 @@
+/* h1{
+    border-width: 10px;
+    border-style:outset;
+    border-color: blueviolet;
+    border-radius: 10px;} */
+
+    h1{
+        border: 5px dotted cornflowerblue;
+        border-radius: 10px;
+    }
+
+    p{
+        
+        border-top: 10px double yellow;
+        border-bottom: 10px inset grey;
+        border-left: 10px solid darkcyan;
+        border-right: 10px dotted indigo;
+        border-radius: 20px;
+    }

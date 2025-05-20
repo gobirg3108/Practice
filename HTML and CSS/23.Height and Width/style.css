@@ -1,0 +1,21 @@
+*{
+    box-sizing:border-box;
+}
+
+.container{
+    background-color: aquamarine;
+    height: 100vh;
+}
+
+.box{
+    background-color: azure;
+    border: 5px double;
+    height: auto;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    
+    /* max-height: 50%;
+    max-width: 50%; */
+}

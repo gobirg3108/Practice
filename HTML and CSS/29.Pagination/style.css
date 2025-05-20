@@ -1,0 +1,36 @@
+.pagination{
+    text-align: center;
+}
+
+.pagination a{
+    color: rgb(214, 14, 14);
+    text-decoration:none;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.pagination a.active{
+    background-color: aqua;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.pagination a:hover:not(.active){
+    background-color: gray;
+    border-radius: 5px;
+}
+
+body{
+    background-image: url(./pexels-thatguycraig000-1563355.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{text-align: center;
+color: azure;}
+
+p{
+    color: white;
+}

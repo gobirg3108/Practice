@@ -1,0 +1,21 @@
+/* li:hover{
+    background-color: aqua;
+    font-size: 1.1em;
+}
+
+li:not(:hover){
+    background-color: antiquewhite;
+} */
+
+/* li:nth-child(4n+1){
+    background-color: blueviolet;
+} */
+
+#greeting p {
+    background-color: aqua;
+    padding: 5px;
+    display: none;
+}
+#greeting:hover p{
+    display:block;
+}

@@ -1,0 +1,55 @@
+/* relative */
+
+/* #box1{
+height: 200px;
+width: 200px;
+background-color: cadetblue;
+position: relative;
+top: 50px;
+left: 50px;
+} */
+
+/* fixed */
+/* 
+#box1{
+height: 200px;
+width: 200px;
+background-color: cadetblue;
+position: fixed;
+top: 50px;
+left: 50px;
+} */
+
+/* absolute */
+/* 
+#box1{
+height: 200px;
+width: 200px;
+background-color: cadetblue;
+position: absolute;
+top: 50px;
+left: 50px;
+} */
+
+/* sticky */
+
+/* 
+#box1{
+height: 200px;
+width: 200px;
+background-color: cadetblue;
+position: sticky;
+top: 50px;
+left: 50px;
+} */
+
+/* static */
+/* 
+#box1{
+height: 200px;
+width: 200px;
+background-color: cadetblue;
+position: static;
+top: 50px;
+left: 50px;
+} */

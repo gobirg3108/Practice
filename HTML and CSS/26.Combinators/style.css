@@ -1,0 +1,19 @@
+.container{
+    border: 3px solid;
+ }
+
+/* .container  p{
+    background-color: aqua;
+}
+
+.container > p{
+    background-color: blue;
+}
+
+.container ~p{
+    background-color: darkorange;
+} */ 
+
+.container + p{ 
+    background-color: salmon;
+}

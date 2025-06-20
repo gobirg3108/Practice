@@ -1,0 +1,11 @@
+ /* 2.Module */
+
+ .button{
+  background-color: aquamarine;
+  border-radius: 10px;
+  border:none;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px 15px;
+} 

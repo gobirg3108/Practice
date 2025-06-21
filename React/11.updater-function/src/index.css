@@ -1,0 +1,36 @@
+.counter-container{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.count-display{
+font-size: 10em;
+margin-top: 0;
+margin-bottom: 50px;
+
+}
+
+.btn-display{
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color:aquamarine;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-display:hover{
+    background-color: hsl(160, 86%, 60%);
+    transform: scale(1.1);
+}
+
+.btn-display:hover::after{
+    content: '';
+    position: absolute;
+    inset: 0;
+    box-shadow: 0 0 10px  hsl(160, 86%, 80%);
+    border-radius: 8px;
+}

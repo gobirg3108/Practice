@@ -13,7 +13,7 @@
 function walkDog() {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      const dogWalked = false;
+      const dogWalked = true;
       if (dogWalked) {
         resolve("You walk the Dog 🐕‍🦺");
       } else {

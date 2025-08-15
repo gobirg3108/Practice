@@ -1,4 +1,4 @@
-var numbs = [2, 11, 15, 7];
+var nums = [2, 11, 15, 7];
 var target = 13;
 
 // var twoSum = function (numbs, target) {

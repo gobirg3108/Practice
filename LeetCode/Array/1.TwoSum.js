@@ -184,3 +184,106 @@ var target = 13;
 
 // console.log(twoSum(numbs,target));
 
+// function twoSum(nums, target) {
+//   const map = {};
+
+//   for (let i = 0; i < nums.length; i++) {
+//     complement = target - nums[i];
+
+//     if (map[complement] !== undefined) {
+//       return [map[complement], i];
+//     }
+//     map[nums[i]] = i;
+//   }
+//   return null;
+// }
+
+// console.log(twoSum(nums, target));
+
+// function twoSum(nums, target) {
+//   const map = {};
+//   for (let i = 0; i < nums.length; i++) {
+//     complement = target - nums[i];
+//     if (map[complement] !== undefined) {
+//       return [map[complement], i];
+//     }
+//     map[nums[i]] = i;
+//   }
+//   return null;
+// }
+// console.log(twoSum(nums, target));
+
+// function twoSum(nums, target) {
+//   let map = {};
+
+//   for (i = 0; i < nums.length; i++) {
+//     complement = target - nums[i];
+//     if (map[complement] !== undefined) {
+//       return [map[complement], i];
+//     }
+//     map[nums[i]] = i;
+//   }
+//   return null;
+// }
+
+// console.log(twoSum(nums, target));
+
+// function twoSum(nums, target) {
+//   let map = {};
+
+//   for (let i = 0; i < nums.length; i++) {
+//     let complement = target  - nums[i];
+//     if (map[complement] !== undefined) {
+//       return [map[complement], i];
+//     }
+//     map[nums[i]] = i;
+//   }
+//   return null;
+// }
+
+// console.log(twoSum(nums, target));
+
+// function twoSum(nums, target) {
+//   let map = {};
+
+//   for (let i = 0; i < nums.length; i++) {
+//     let complement = target - nums[i];
+
+//     if (map[complement] !== undefined) {
+//       return [map[complement], i];
+//     }
+//     map[nums[i]] = i;
+//   }
+//   return null
+// }
+
+// console.log(twoSum(nums,target));
+
+// function twoSum(nums, target) {
+//   let map = {};
+//   for (let i = 0; i < nums.length; i++) {
+//     let complement = target - nums[i];
+//     if (map[complement] !== undefined) {
+//       return [map[complement], i];
+//     }
+//     map[nums[i]] = i;
+//   }
+//   return null;
+// }
+
+// console.log(twoSum(nums, target));
+
+function twoSum(nums, target) {
+  let map = {};
+
+  for (let i = 0; i < nums.length; i++) {
+    let complement = target - nums[i];
+    if (map[complement] !== undefined) {
+      return [map[complement], i];
+    }
+    map[nums[i]] = i;
+  }
+  return null;
+}
+
+console.log(twoSum(nums,target));
